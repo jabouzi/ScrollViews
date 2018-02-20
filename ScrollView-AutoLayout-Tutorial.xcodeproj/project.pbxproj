@@ -161,9 +161,12 @@
 				TargetAttributes = {
 					FF5E11811B5E24A600C40D82 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2Q3M5SLHJL;
+						LastSwiftMigration = 0830;
 					};
 					FF5E11961B5E24A600C40D82 = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
 						TestTargetID = FF5E11811B5E24A600C40D82;
 					};
 				};
@@ -342,9 +345,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Q3M5SLHJL;
 				INFOPLIST_FILE = "ScrollView-AutoLayout-Tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -352,9 +357,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Q3M5SLHJL;
 				INFOPLIST_FILE = "ScrollView-AutoLayout-Tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -373,6 +380,7 @@
 				INFOPLIST_FILE = "ScrollView-AutoLayout-TutorialTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollView-AutoLayout-Tutorial.app/ScrollView-AutoLayout-Tutorial";
 			};
 			name = Debug;
@@ -388,6 +396,7 @@
 				INFOPLIST_FILE = "ScrollView-AutoLayout-TutorialTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollView-AutoLayout-Tutorial.app/ScrollView-AutoLayout-Tutorial";
 			};
 			name = Release;
@@ -411,6 +420,7 @@
 				FF5E11A31B5E24A600C40D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF5E11A41B5E24A600C40D82 /* Build configuration list for PBXNativeTarget "ScrollView-AutoLayout-TutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +429,7 @@
 				FF5E11A61B5E24A600C40D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

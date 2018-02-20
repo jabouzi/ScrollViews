@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, UIScrollViewDelegate {
 
-    @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var scrollView: UIScrollView!
     
     // MARK: - Lifecycle
@@ -23,13 +22,15 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     }
     
     // MARK: - ScrollViewDelegate
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView){
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView){
         
-        let pageWidth: CGFloat = CGRectGetWidth(scrollView.frame)
+        let pageWidth: CGFloat = scrollView.frame.width
         
-        var currentPage: CGFloat = floor((scrollView.contentOffset.x - pageWidth/2) / pageWidth) + 1
+        let currentPage: CGFloat = floor((scrollView.contentOffset.x - pageWidth/2) / pageWidth) + 1
         
-        self.pageControl.currentPage = Int(currentPage)
+        debugPrint(currentPage)
+        debugPrint(Int(currentPage))
+        //self.pageControl.currentPage = Int(currentPage)
     }
 }
 
